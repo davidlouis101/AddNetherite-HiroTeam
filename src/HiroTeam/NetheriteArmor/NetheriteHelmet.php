@@ -8,7 +8,7 @@ class NetheriteHelmet extends Armor
 {
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(748, $meta, "Netherite Helmet");
+        parent ::__construct(748, $meta, "Netherite Helm");
     }
 
     public function getDefensePoints(): int

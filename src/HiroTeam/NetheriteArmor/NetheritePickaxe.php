@@ -12,7 +12,7 @@ class NetheritePickaxe extends Pickaxe
 
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(745, $meta, "Netherite Pickaxe", 5);
+        parent ::__construct(745, $meta, "Netherite Pickaxt", 5);
     }
 
     public function getBlockToolType(): int

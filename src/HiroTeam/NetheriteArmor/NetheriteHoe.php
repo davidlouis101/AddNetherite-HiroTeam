@@ -10,7 +10,7 @@ class NetheriteHoe extends Hoe
 
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(747, $meta, "Netherite hoe", 5);
+        parent ::__construct(747, $meta, "Netherite Hacke", 5);
     }
 
     public function onAttackEntity(Entity $victim): bool

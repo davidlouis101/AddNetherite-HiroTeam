@@ -12,7 +12,7 @@ class NetheriteSword extends TieredTool
 
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(743, $meta, "Netherite Sword", 5);
+        parent ::__construct(743, $meta, "Netherite Schwert", 5);
     }
 
     public function getBlockToolType(): int
@@ -32,7 +32,7 @@ class NetheriteSword extends TieredTool
 
     public function getMiningEfficiency(Block $block): float
     {
-        return parent ::getMiningEfficiency($block) * 1.5;
+        return parent ::getMiningEfficiency($block) * 3.5;
     }
 
     protected function getBaseMiningEfficiency(): float

@@ -8,7 +8,7 @@ class NetheriteLeggings extends Armor
 {
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(750, $meta, "Netherite Leggings");
+        parent ::__construct(750, $meta, "Netherite Hose");
     }
 
     public function getDefensePoints(): int

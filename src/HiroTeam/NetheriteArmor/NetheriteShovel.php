@@ -11,7 +11,7 @@ class NetheriteShovel extends Shovel
 
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(744, $meta, "Netherite Shovel", 5);
+        parent ::__construct(744, $meta, "Netherite Schaufel", 5);
     }
 
     public function getBlockToolHarvestLevel(): int

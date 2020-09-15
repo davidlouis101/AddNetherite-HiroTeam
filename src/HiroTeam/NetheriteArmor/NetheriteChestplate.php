@@ -8,7 +8,7 @@ class NetheriteChestplate extends Armor
 {
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(749, $meta, "Netherite Chestplate");
+        parent ::__construct(749, $meta, "Netherite Chestplatte");
     }
 
     public function getDefensePoints(): int

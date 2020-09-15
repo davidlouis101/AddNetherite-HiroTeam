@@ -28,8 +28,8 @@ class Main extends PluginBase
         ItemFactory ::registerItem(new NetheriteShovel(), true);
         Itemfactory ::registerItem(new NetheriteAxe(), true);
         ItemFactory ::registerItem(new NetheriteHoe(), true);
-        ItemFactory ::registerItem(new Item(752, 0, "Netherite Scrap"));
-        ItemFactory ::registerItem(new Item(742, 0, "Netherite Ingot"));
+        ItemFactory ::registerItem(new Item(752, 0, "Netherite Schrott"));
+        ItemFactory ::registerItem(new Item(742, 0, "Netherite Barren"));
         Item ::initCreativeItems();
     }
 }

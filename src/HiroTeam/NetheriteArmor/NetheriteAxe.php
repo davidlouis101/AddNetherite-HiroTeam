@@ -12,7 +12,7 @@ class NetheriteAxe extends Axe
 
     public function __construct(int $meta = 0)
     {
-        parent ::__construct(746, $meta, "Netherite axe", 5);
+        parent ::__construct(746, $meta, "Netherite Axt", 5);
     }
 
     public function getBlockToolType(): int
